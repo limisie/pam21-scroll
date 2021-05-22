@@ -41,3 +41,35 @@ p {
     font-weight: 300;
     margin-bottom: 1rem;
 }
+
+.box-link {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.box-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.5s;
+}
+
+.box-link-64 {
+    left: 37vw;
+    top: 55vh;
+}
+
+
+.box-link-93 {
+    right: 24vw;
+    top: 65vh;
+}
+
+.box-link-125 {
+    right: 13vw;
+    top: 43vh;
+}
